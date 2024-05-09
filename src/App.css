@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
+/* https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #2A9D8F;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+    background-color: #264653;
+    color: #E9C46A;
+    width: 450px;
+    margin: 50px auto 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 45px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container {
+    background-color: #264653;
+    width: 550px;
+    margin: 20px auto;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+    margin: 15px auto;
+    width: 340px;
+    height: 45px;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add-btn {
+    border-radius: 5px;
+    background-color: #F4A261;
+    font-size: 18px;
+    margin: 15px auto;
+    width: 70px;
+    height: 42px;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: none;
+}
+
+.add-btn:hover {
+    background-color: #c78752;
+    color: white;
+}
+
+.delAll-btn {
+    float: right;
+    margin: 35px 15px 0px 0px;
+    border-radius: 5px;
+    background-color: #E76F51;
+    font-size: 18px;
+    width: 100px;
+    height: 45px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.delAll-btn:hover,
+.del-btn:hover {
+    background-color: #c25e45;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.del-btn {
+    margin: 0px 10px;
+    border-radius: 5px;
+    background-color: #E76F51;
+    font-size: 18px;
+    width: 75px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+}
+
+span {
+    margin: 0px 10px;
+    background-color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+        width: 220px;
+    }
+
+    .delAll-btn {
+        float: none;
+        font-size: 12px;
+        width: 75px;
+        height: 30px;
+        margin: 5px;
+    }
+
+    .container {
+        width: 250px;
+        margin: 0px auto;
+    }
+
+    input {
+        font-size: 12px;
+        width: 150px;
+        height: 35px;
+    }
+
+    .add-btn {
+        font-size: 12px;
+        width: 40px;
+        height: 33px;
+    }
+
+    .del-btn {
+        font-size: 12px;
+        width: 45px;
+        height: 25px;
+        ;
+        margin: 0px 5px;
+    }
+
+    span {
+        font-size: 12px;
+        margin: 0px 5px;
+    }
 }
