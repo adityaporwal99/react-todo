@@ -1,3 +1,19 @@
+# React Todo
+  This todo application is built using React to add/remove tasks.
+## Live Application URL
+  To view the application live, click on https://adityaporwal99.github.io/react-todo/
+## Technologies/Concept
+  Used React concepts like Hooks, JSX to build logic and create styles using CSS.
+## Installation/Setup
+  * Install NodeJS
+  * Download/Clone the repository.
+  * Run **`npm install`** command to install all npm packages.
+  * Now, type **`npm start`** in order to run the application.
+## Preview
+  https://github.com/user-attachments/assets/661f6d91-8948-4d54-9a1d-d0b32fcd59dd
+
+
+
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
